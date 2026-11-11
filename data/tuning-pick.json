@@ -1,0 +1,689 @@
+{
+ "pick": {
+  "kp": 30.0,
+  "kv": 14.0,
+  "ki": 1.0
+ },
+ "tuning_figure_m": 0.04755207605147789,
+ "salt": "5c2a0186f8a9244f",
+ "replicates": 8,
+ "flights": 7200,
+ "seconds": 265.8010289669037,
+ "grid": [
+  {
+   "kp": 6.0,
+   "kv": 3.5,
+   "ki": 1.0,
+   "median_rmse_m": 0.07323255014364692,
+   "mean_rmse_m": 0.08913043772227079,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 3.5,
+   "ki": 2.0,
+   "median_rmse_m": 0.07617520204563294,
+   "mean_rmse_m": 0.09312233414426362,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 3.5,
+   "ki": 4.0,
+   "median_rmse_m": 0.08232562867166096,
+   "mean_rmse_m": 0.10298890770652654,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 5.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.06478531948407817,
+   "mean_rmse_m": 0.07170398022113124,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 5.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.06541429898665682,
+   "mean_rmse_m": 0.07357655300146168,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 5.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.06774933598061937,
+   "mean_rmse_m": 0.07802607027392032,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 7.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.0604169036230167,
+   "mean_rmse_m": 0.06290439090581033,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 7.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.05970274231625407,
+   "mean_rmse_m": 0.0639235183762336,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 7.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.06122926848310099,
+   "mean_rmse_m": 0.06591984194102703,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 10.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.057265937556393365,
+   "mean_rmse_m": 0.05931301455841253,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 10.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.05813547034257433,
+   "mean_rmse_m": 0.06019100639169533,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 10.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.05913495089977518,
+   "mean_rmse_m": 0.0611069936067091,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 14.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.05761461519302083,
+   "mean_rmse_m": 0.059401217152180795,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 14.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.058718346504285646,
+   "mean_rmse_m": 0.06051829905499617,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 6.0,
+   "kv": 14.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.05865413743127695,
+   "mean_rmse_m": 0.06133668584683786,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 3.5,
+   "ki": 1.0,
+   "median_rmse_m": 0.06770191050422839,
+   "mean_rmse_m": 0.0867571141944697,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 3.5,
+   "ki": 2.0,
+   "median_rmse_m": 0.06899862152831367,
+   "mean_rmse_m": 0.08983803028654018,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 3.5,
+   "ki": 4.0,
+   "median_rmse_m": 0.07250175839044196,
+   "mean_rmse_m": 0.09681332058862051,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 5.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.06093357573782453,
+   "mean_rmse_m": 0.06950522478540425,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 5.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.06090532758426236,
+   "mean_rmse_m": 0.07112056620313448,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 5.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.06349368654771304,
+   "mean_rmse_m": 0.07464281245468075,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 7.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.05654497247744878,
+   "mean_rmse_m": 0.06007917273287692,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 7.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.05591825290017026,
+   "mean_rmse_m": 0.06102820370713711,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 7.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.056895164253231906,
+   "mean_rmse_m": 0.06285250119114584,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 10.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.054449412333411544,
+   "mean_rmse_m": 0.05552291942228887,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 10.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.0549382979860456,
+   "mean_rmse_m": 0.05625363059266911,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 10.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.05535283875918219,
+   "mean_rmse_m": 0.05725451882836682,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 14.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.05432564375362099,
+   "mean_rmse_m": 0.0549155127832506,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 14.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.05423131219426361,
+   "mean_rmse_m": 0.055707773804573,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 9.0,
+   "kv": 14.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.054415397835882125,
+   "mean_rmse_m": 0.05655406615827341,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 3.5,
+   "ki": 1.0,
+   "median_rmse_m": 0.06292098563524134,
+   "mean_rmse_m": 0.079524305243728,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 3.5,
+   "ki": 2.0,
+   "median_rmse_m": 0.06375542098630366,
+   "mean_rmse_m": 0.0813257097919602,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 3.5,
+   "ki": 4.0,
+   "median_rmse_m": 0.06560321840826586,
+   "mean_rmse_m": 0.08515699380537463,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 5.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.05679226485021282,
+   "mean_rmse_m": 0.06605382665199236,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 5.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.05763666057734461,
+   "mean_rmse_m": 0.06716190289509473,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 5.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.059752398583729445,
+   "mean_rmse_m": 0.06943304014895034,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 7.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.053391677560498146,
+   "mean_rmse_m": 0.05776392752129291,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 7.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.052554949158869296,
+   "mean_rmse_m": 0.058514576720472465,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 7.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.053822967180615355,
+   "mean_rmse_m": 0.05993903253688506,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 10.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.05149131299479556,
+   "mean_rmse_m": 0.05291624508604837,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 10.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.05203913475763775,
+   "mean_rmse_m": 0.05349789975104219,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 10.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.05298938085698468,
+   "mean_rmse_m": 0.05442031522990759,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 14.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.05069298987470045,
+   "mean_rmse_m": 0.05155077497839766,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 14.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.051324532416228905,
+   "mean_rmse_m": 0.052118626187282774,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 13.5,
+   "kv": 14.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.05130106840548179,
+   "mean_rmse_m": 0.052891646962249704,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 3.5,
+   "ki": 1.0,
+   "median_rmse_m": 0.07176015376813724,
+   "mean_rmse_m": 0.07938561705901943,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 3.5,
+   "ki": 2.0,
+   "median_rmse_m": 0.07332285156584198,
+   "mean_rmse_m": 0.08117698741350725,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 3.5,
+   "ki": 4.0,
+   "median_rmse_m": 0.07617818985269495,
+   "mean_rmse_m": 0.08530227709389641,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 5.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.05564864430303565,
+   "mean_rmse_m": 0.0625624629016111,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 5.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.056227253865829,
+   "mean_rmse_m": 0.06322875507694527,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 5.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.057363557178679636,
+   "mean_rmse_m": 0.06454673472082775,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 7.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.051109809718132476,
+   "mean_rmse_m": 0.05562365119783078,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 7.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.051147567633172256,
+   "mean_rmse_m": 0.05612256303416491,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 7.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.05200316945541118,
+   "mean_rmse_m": 0.05705373600296468,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 10.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.050214807478974166,
+   "mean_rmse_m": 0.05125608565268131,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 10.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.050737100473352115,
+   "mean_rmse_m": 0.051678112844103806,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 10.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.05148481872971958,
+   "mean_rmse_m": 0.052394729309519265,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 14.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.04917869479894588,
+   "mean_rmse_m": 0.049500178476585756,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 14.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.04894389246677359,
+   "mean_rmse_m": 0.04990322612927741,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 20.0,
+   "kv": 14.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.049244287038452295,
+   "mean_rmse_m": 0.05053388784593294,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 3.5,
+   "ki": 1.0,
+   "median_rmse_m": 0.5039233637070129,
+   "mean_rmse_m": 0.5253077334741929,
+   "crashes": 96,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 3.5,
+   "ki": 2.0,
+   "median_rmse_m": 0.5419047908817416,
+   "mean_rmse_m": 0.5629065313897997,
+   "crashes": 96,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 3.5,
+   "ki": 4.0,
+   "median_rmse_m": 0.6110040663943481,
+   "mean_rmse_m": 0.6446666788285601,
+   "crashes": 96,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 5.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.09239742059183975,
+   "mean_rmse_m": 0.09306993088077266,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 5.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.09401587957068452,
+   "mean_rmse_m": 0.09567288541194645,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 5.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.0999226642526596,
+   "mean_rmse_m": 0.10156392180519573,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 7.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.05528610489177855,
+   "mean_rmse_m": 0.05718014290290069,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 7.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.05568118619349116,
+   "mean_rmse_m": 0.057545159124214616,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 7.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.05641277706957097,
+   "mean_rmse_m": 0.05824560322830844,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 10.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.05043151695908413,
+   "mean_rmse_m": 0.05105858651647688,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 10.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.05068245057707701,
+   "mean_rmse_m": 0.051331939619200705,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 10.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.05119414704356991,
+   "mean_rmse_m": 0.05181630687572563,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 14.0,
+   "ki": 1.0,
+   "median_rmse_m": 0.04755207605147789,
+   "mean_rmse_m": 0.0488689372951368,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 14.0,
+   "ki": 2.0,
+   "median_rmse_m": 0.04776297044470412,
+   "mean_rmse_m": 0.049133718299314434,
+   "crashes": 0,
+   "episodes": 96
+  },
+  {
+   "kp": 30.0,
+   "kv": 14.0,
+   "ki": 4.0,
+   "median_rmse_m": 0.04829777289113364,
+   "mean_rmse_m": 0.04958579271008399,
+   "crashes": 0,
+   "episodes": 96
+  }
+ ]
+}

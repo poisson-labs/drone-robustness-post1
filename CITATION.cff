@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, the stored flights or the trained policies, please cite the report."
+type: software
+title: "Drone Robustness Study, post 1: where sixteen trained quadrotor policies break under wind gusts"
+authors:
+  - family-names: Kolasinski
+    given-names: Taylor
+    affiliation: Poisson Labs
+version: 1.0.0
+date-released: 2026-11-10
+license: MIT
+repository-code: "https://github.com/poisson-labs/drone-robustness-post1"
+preferred-citation:
+  type: report
+  title: "Where sixteen trained quadrotor policies break under wind gusts, beside two classical controllers, in simulation"
+  authors:
+    - family-names: Kolasinski
+      given-names: Taylor
+      affiliation: Poisson Labs
+  institution:
+    name: Poisson Labs
+  year: 2026
+  month: 11
+  notes: "Post 1 of the Drone Robustness Study. Technical report, not peer reviewed."
+  # P1c-site: add the report's URL here as `url:` when it is placed

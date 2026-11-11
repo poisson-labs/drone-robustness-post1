@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "drone-robustness-post1"
+version = "1.0.0"
+description = "Where sixteen trained quadrotor policies break under wind gusts, beside two classical controllers, in simulation: the post 1 slice of the Drone Robustness Study"
+readme = "README.md"
+license = "MIT"
+requires-python = "==3.11.*"
+dependencies = [
+    "numpy==2.4.6",
+    "scipy==1.17.1",
+    "mujoco==3.17.0",
+    "gymnasium==1.4.0",
+    "poisson-prove==0.1.2",
+    "mj-drones-gym @ git+https://github.com/tau-intelligence/MuJoCo-drones-gym@ca170dc6760d422e47ef46fb3af46f8cd20410eb",
+]
+
+[dependency-groups]
+dev = ["pytest==9.2.0"]
+gate = [
+    "stable-baselines3==2.9.2",
+    "torch==2.15.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/drone_study"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

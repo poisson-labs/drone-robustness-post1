@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.work/
+MUJOCO_LOG.TXT
+run.xml
+
+# what the example writes when you run it
+examples/where-does-my-controller-break/prove-store/
+examples/where-does-my-controller-break/boundary*.json
+examples/where-does-my-controller-break/boundary*.svg
+examples/where-does-my-controller-break/compare*.json
