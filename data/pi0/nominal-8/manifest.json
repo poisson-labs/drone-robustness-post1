@@ -1,0 +1,71 @@
+{
+ "arm": "nominal",
+ "lineage": 8,
+ "seed": 1614707154,
+ "budget": 5000000,
+ "steps": 5000000,
+ "episodes": 20217,
+ "mean_episode_steps": 246.83548498788147,
+ "mean_episode_seconds": 2.4683548498788146,
+ "steps_near_reset": 1011076,
+ "share_near_reset": 0.2022152,
+ "checkpoint_sha256": "dc90014fde7f4666eb9193f25f76a0d66cbc53c0b4f761308248505505be54db",
+ "reward": {
+  "k_track": 0.1,
+  "track_scale_m": 0.5,
+  "k_smooth": 0.005,
+  "crash_penalty": 22.0,
+  "k_yaw": 0.032,
+  "yaw_scale_rad": 3.141592653589793,
+  "reference_yaw": 0.0,
+  "yaw_huber_band_rad": 0.08726646259971647,
+  "yaw_rate_weight": 0.25,
+  "yaw_rate_cap_rad_s": 2.0
+ },
+ "hyperparameters": {
+  "n_envs": 25,
+  "n_steps": 1250,
+  "batch_size": 1250,
+  "n_epochs": 10,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "clip_range": 0.2,
+  "clip_range_vf": null,
+  "normalize_advantage": true,
+  "ent_coef": 0.0,
+  "vf_coef": 0.5,
+  "max_grad_norm": 0.5,
+  "target_kl": null,
+  "use_sde": false,
+  "net_arch_pi": [
+   256,
+   256
+  ],
+  "net_arch_vf": [
+   256,
+   256
+  ],
+  "activation": "tanh",
+  "ortho_init": true,
+  "log_std_init": -1.0,
+  "optimizer": "Adam",
+  "adam_eps": 1e-05,
+  "nominal_learning_rate": 0.0003,
+  "fine_tune_learning_rate": 0.0001,
+  "device": "cpu",
+  "torch_threads": 1
+ },
+ "role": "nominal",
+ "checkpoints": {
+  "5000000": {
+   "steps": 5000000,
+   "file": "checkpoint-5000000.zip",
+   "sha256": "dc90014fde7f4666eb9193f25f76a0d66cbc53c0b4f761308248505505be54db"
+  }
+ },
+ "resumes": [],
+ "wall_seconds": 38703.52465891838,
+ "git_commit": "74ce49cd5893ceb68b392e1b26ef559c85bfb13b",
+ "started": "2026-11-09T05:22:31Z",
+ "finished": "2026-11-09T16:07:35Z"
+}
