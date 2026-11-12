@@ -10,3 +10,4 @@ version: 1.0.0
 date-released: 2026-11-10
 license: MIT
 repository-code: "https://github.com/poisson-labs/drone-robustness-post1"
+url: "https://poissonlabs.ai/research/where-does-a-trained-drone-controller-break/"

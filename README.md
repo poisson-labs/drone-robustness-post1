@@ -13,10 +13,10 @@ and below the geometric controller in all 16. All 53,825 crashes on the main gri
 leaving a 0.5 m tube around the point it was tracking; none tumbled or hit the floor first. Before anything was drawn, every
 published number was reproduced from the raw flights by an independent re-implementation that imports none of this code.
 
-- The post: *Where does a trained drone controller break?* <!-- P1c-site: the post's URL on poissonlabs.ai -->
+- The post: [*Where does a trained drone controller break?*](https://poissonlabs.ai/research/where-does-a-trained-drone-controller-break/)
 - The numbers: [`RESULTS-P1.md`](RESULTS-P1.md), with its check sheet [`CHECK-P1.md`](CHECK-P1.md)
 - The example, *Where does my controller break?*: [`examples/where-does-my-controller-break/`](examples/where-does-my-controller-break/),
-  walked through on the docs <!-- P1c-site: the docs example page's URL -->
+  [walked through in the docs](https://poissonlabs.ai/docs/examples/where-does-my-controller-break/)
 
 Everything here is in simulation: one drone model, one air model, one trajectory and these gusts. See *What this does not show* below.
 
