@@ -2,17 +2,18 @@
 
 The code, the stored flights and the trained policies behind post 1 of Poisson Labs' Drone Robustness Study. Sixteen
 reinforcement-learning policies were trained to fly a simulated Crazyflie along a figure-eight in calm air, then flown
-through wind gusts from 16 directions at 2 to 16 m/s. A cascaded PID with the Crazyflie firmware's gains and a tuned
-geometric controller flew the same gusts on identical air. That is 174,080 flights, and for every direction the study found
-v50, the gust speed at which half of the flights crash.
+through wind gusts from 16 directions at 2 to 16 m/s, at two points on the loop. A cascaded PID built on the Crazyflie
+firmware's structure and gains and a tuned geometric controller flew the same gusts on identical air, along with two
+references: a controller handed the true wind, and a privileged oracle. With a re-check on fresh seeds, that is 174,080
+flights, and for every direction the study found v50, the gust speed at which half of the flights crash.
 
 **The short version.** The policies break between 8.3 and 11.5 m/s depending on direction, and they are hardest hit by
-headwinds from below. Their average sits above the PID in 8 of 16 directions and below the geometric controller in all 16.
-Every one of the 53,825 crashes was the drone blown off its path, not a tumble or a floor strike. Before anything was drawn, an
-outside party reproduced every published number from the raw flights with their own code.
+headwinds from below. Their average sits above the PID in 8 of 16 directions, below it in 7 and level to two decimals in 1,
+and below the geometric controller in all 16. All 53,825 crashes on the main grid, across the twenty flyers, were the drone
+leaving a 0.5 m tube around the point it was tracking; none tumbled or hit the floor first. Before anything was drawn, every
+published number was reproduced from the raw flights by an independent re-implementation that imports none of this code.
 
 - The post: *Where does a trained drone controller break?* <!-- P1c-site: the post's URL on poissonlabs.ai -->
-- The paper-format report (technical report, not peer reviewed) <!-- P1c-site: the report's URL -->
 - The numbers: [`RESULTS-P1.md`](RESULTS-P1.md), with its check sheet [`CHECK-P1.md`](CHECK-P1.md)
 - The example, *Where does my controller break?*: [`examples/where-does-my-controller-break/`](examples/where-does-my-controller-break/),
   walked through on the docs <!-- P1c-site: the docs example page's URL -->
@@ -84,7 +85,8 @@ The first flies the cascaded PID through a headwind and a tailwind on the study'
 cores) and draws its v50 beside the stored maps, in `boundary-pid.svg` beside the script; a second run reads what Prove stored
 and flies nothing. The second does the same for the stand-in controller in `my_controller.py`, which is yours to replace: a
 controller is a class with `reset()` and `act(view)` that returns a thrust and three body rates, wrapped with `rollout_for` and
-named to the script as `module:name`. Without `--quick` the script flies the eight level directions and draws a full ring;
+named to the script as `module:name`. Give each version of your controller its own `--store` and `--out`: the script looks
+runs up by the flyer's name, so after an edit a run into the same store reads the old flights and flies nothing. Without `--quick` the script flies the eight level directions and draws a full ring;
 `--all` flies the study's whole grid of sixteen. `--flyer pi0-7` flies one of the sixteen policies (it needs the `gate` group).
 `compare_with_study.py --flyer pid` checks, row by row, that what you flew equals what the study stored. The script's
 docstring has the rest.
@@ -124,8 +126,8 @@ The case that loads the sixteen real checkpoints needs the `gate` group and the 
 - That the feasibility oracle is a controller anyone could fly, or that its ring is the true limit of flight. It reads what no
   real drone knows.
 - That a direction with no crash on the grid is safe, or that any flyer is robust. Twenty-four episodes a cell cannot show it.
-- A test between a policy and a controller. There is none: the study's pre-registered analysis defines no such comparison,
-  and none was added afterwards.
+- A test between a policy and a controller. There is none: the study's analysis plan, frozen before any gust was flown,
+  defines no such comparison, and none was added afterwards.
 - That the map holds on other trajectories, timings or air models. One trajectory, two timings, one air model.
 - Anything about retraining a policy on its failures, or about finding failures by search. That is the study's second post,
   and its code and data are not in this repository.
