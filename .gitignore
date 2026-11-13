@@ -11,3 +11,6 @@ examples/where-does-my-controller-break/prove-store/
 examples/where-does-my-controller-break/boundary*.json
 examples/where-does-my-controller-break/boundary*.svg
 examples/where-does-my-controller-break/compare*.json
+
+# devlogs live in the vault, never in a repository (docs/repo-hygiene.md, section 2.7)
+devlog.md
